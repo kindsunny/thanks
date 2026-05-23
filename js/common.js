@@ -80,7 +80,7 @@ function setText(){
             '        <div class="name-block">\n' +
             '            <div class="txt-groom-mother"></div>\n' +
             '        </div>');
-        window.basic.link="https://saybeom.github.io/thanks?m=k";
+        window.basic.link="https://kindsunny.github.io/thanks?m=k";
         $('#txt-greeting').html(window.basic.info.greeting);
     }else if(mode=="j") {
         $("#mode-from").html('<span class="relation mr-5">혼주 </span>\n' +
@@ -91,7 +91,7 @@ function setText(){
             '        <span class="name-block">\n' +
             '            <span class="txt-bride-mother"></span>\n' +
             '        </span>');
-        window.basic.link="https://saybeom.github.io/thanks?m=j";
+        window.basic.link="https://kindsunny.github.io/thanks?m=j";
         $('#txt-greeting').html(window.basic.info.greeting);
     }else{
         $("#mode-from").html('<span class="relation">신랑 </span>\n' +
