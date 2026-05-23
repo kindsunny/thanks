@@ -28,7 +28,7 @@ window.basic = {
     "kakao": {
         "description": "특별한 날, 소중한 시간을\n함께해주셔서 감사드립니다.",
         "button": "모바일 감사장 보기",
-        "img": "https://github.com/kindsunny/thanks/blob/main/img/main/main.jpg?raw=true"
+        "img": "https://github.com/kindsunny/thanks/blob/main/img/main/sub3.jpeg?raw=true"
     },
     "info": {
         "greeting": "저희 자녀의 결혼식에\n" +
