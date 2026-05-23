@@ -1,30 +1,30 @@
 window.basic = {
-    "title": "박석범 ♥ 장세희 감사장",
+    "title": "김병선 ♥ 정다정 감사장",
     "groom": {
-        "name": "박석범",
-        "first_name": "석범",
+        "name": "김병선",
+        "first_name": "병선",
         "parents": {
             "father": {
-                "name": "박영조"
+                "name": "김용표"
             },
             "mother": {
-                "name": "오계자"
+                "name": "이향희"
             }
         }
     },
     "bride": {
-        "name": "장세희",
-        "first_name": "세희",
+        "name": "정다정",
+        "first_name": "다정",
         "parents": {
             "father": {
-                "name": "장우진"
+                "name": "정영기"
             },
             "mother": {
-                "name": "최연희"
+                "name": "이애순"
             }
         }
     },
-    "link": "https://saybeom.github.io/thanks",
+    "link": "https://kindsunny.github.io/thanks",
     "kakao": {
         "description": "특별한 날, 소중한 시간을\n함께해주셔서 감사드립니다.",
         "button": "모바일 감사장 보기",
@@ -71,7 +71,7 @@ function setText(){
 
     const urlParams = new URL(location.href).searchParams;
     const mode = urlParams.get('m');
-    if(mode=="p"){
+    if(mode=="k"){
         $("#mode-from").html('<span class="relation mr-5">혼주 </span>\n' +
             '        <div class="name-block">\n' +
             '            <div class="txt-groom-father"></div>\n' +
@@ -80,7 +80,7 @@ function setText(){
             '        <div class="name-block">\n' +
             '            <div class="txt-groom-mother"></div>\n' +
             '        </div>');
-        window.basic.link="https://saybeom.github.io/thanks?m=p";
+        window.basic.link="https://saybeom.github.io/thanks?m=k";
         $('#txt-greeting').html(window.basic.info.greeting);
     }else if(mode=="j") {
         $("#mode-from").html('<span class="relation mr-5">혼주 </span>\n' +
@@ -145,7 +145,7 @@ function copyLink(){
 
     let url = window.document.location.href;
     copyToClipboard(url);
-    alert('석범♥세희 감사장 주소가 복사되었습니다.');
+    alert('병선♥다정 감사장 주소가 복사되었습니다.');
 }
 
 function copyToClipboard(val) {
